@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.background {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 20px;
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.display {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.display-player {
+    color: #ff6347;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.tile {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.announcer {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none;
+}
+
+.controls button {
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+}
